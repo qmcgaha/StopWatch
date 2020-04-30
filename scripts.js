@@ -4,5 +4,13 @@ function displayTime() {
   document.querySelector('.clock').textContent = time;
 }
 
-displayTime();
+time = displayTime();
 const createClock = setInterval(displayTime, 1000);
+
+function timeFunction() {
+  for (let i = 0); i >= 0, i++
+}
+
+startTime = Date.now()
+ms = Date.now() - startTime
+
