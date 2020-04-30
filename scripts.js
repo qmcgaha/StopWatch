@@ -8,9 +8,11 @@ time = displayTime();
 const createClock = setInterval(displayTime, 1000);
 
 function timeFunction() {
-  for (let i = 0); i >= 0, i++
+  for (let i = 0; i >= 0; i++)
+  console.log(i)
 }
 
-startTime = Date.now()
-ms = Date.now() - startTime
+//timeFunction();
 
+startTime = Date.now();
+ms = Date.now() - startTime;
