@@ -1,22 +1,29 @@
 <!DOCTYPE html>
 <html lang="en-US">
-  <head>
-    <link href="styles.css" rel="stylesheet">
-    <meta charset="utf-8">
-    <title>Simple setInterval clock</title>
-    <style>
-      p {
-        font-family: sans-serif;
-      }
-    </style>
-  </head>
-  <body>
-    <p class="clock"></p>
-    <div id="buttons">
-    <button id="start">Start The StopWatch</button><br>
-    <button id="stop">Stop The StopWatch</button><br>
-    <button id="reset">Reset the StopWatch</button><br>
-    </div>
-    <script src="scripts.js"></script>
-  </body>
+
+<head>
+  <link href="styles.css" rel="stylesheet">
+  <meta charset="utf-8">
+  <title>Simple setInterval clock</title>
+  <style>
+    p {
+      font-family: sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+  <p>
+    <span id="seconds-elapsed">0</span> seconds
+  </p>
+  <div id="buttons">
+    <p>
+      <button id="start">Start The StopWatch</button><br>
+      <button id="stop">Stop The StopWatch</button><br>
+      <button id="reset">Reset the StopWatch</button><br>
+    </p>
+  </div>
+  <script src="./scripts.js" defer></script>
+</body>
+
 </html>
