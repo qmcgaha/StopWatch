@@ -28,5 +28,8 @@ document.getElementById("stop").onclick = function () {
   startButton.removeAttribute("disabled");
 }
 //     A "Reset" button to reset the time back to 0.
-
+document.getElementById("reset").onclick = function () {
+  seconds = 0;
+  displaySeconds();
+}
 // The time display to show the number of seconds elapsed, rather than the actual time.
